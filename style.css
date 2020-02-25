@@ -1,0 +1,26 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .jumbotron-back{
+  background-color: #00a4b0;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  }
+  img{
+    border-radius: 30%;
+    width: 400px;
+    height: 350px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  }
+}
